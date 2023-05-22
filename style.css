@@ -1,0 +1,544 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* This is Header Section */
+.header_section {
+  height: 60rem;
+  background-image: url("./images/pressure-hatao-banner-v2\ .png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-size: cover !important;
+  filter: brightness(99%);
+  object-fit: cover;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* head Section for Logo and Login*/
+
+.nav_sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3.4em;
+}
+
+.login a,
+.help a {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-right: 0.3rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login .svg-icon,
+.help .svg-icon {
+  margin-right: 2rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login_help {
+  display: flex;
+}
+
+.help {
+  display: flex;
+}
+
+.help #help-icon {
+  color: #fff;
+  font-size: 2.4rem;
+  margin-right: 0.7rem;
+  font-weight: 500;
+}
+
+/* Hover */
+.login a:hover,
+.help a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+/* match-making-Services */
+
+.match-making-Services {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+
+  /* box-shadow: 0.2px 0.2px 5px rgba(255, 255, 255, 0.02); */
+}
+
+/* Header */
+
+.header {
+  color: #fff;
+  font-size: 3.2rem;
+  text-shadow: 1px 1px 1px #1f2a1f;
+  text-align: center;
+}
+
+/* Services Box */
+
+.services {
+  color: #fff;
+  margin-bottom: 3em;
+  padding: 1.5em 0 3em 0;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+/* all information */
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.4rem;
+  box-sizing: border-box;
+}
+
+/* Common property use for all info */
+
+.info-property {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+/* age property where age-from to age -to */
+
+.age {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.4rem;
+}
+/* span element "to" */
+.info #to {
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+}
+
+/* age to */
+
+.info .age-to {
+  margin-top: 1.6rem;
+  font-size: 1.4rem;
+}
+
+/* "select" tag  element */
+
+.age-select {
+  padding: 0.8rem 5.2rem 0.8rem 1rem;
+  height: 3.6rem;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  outline: none;
+  color: #72727d !important;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* option */
+.info select option {
+  letter-spacing: 1px;
+}
+
+/* button */
+.lets-begin .btn {
+  background: #53b9d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 0.6em 1em;
+  width: 75%;
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+/* button hover */
+.lets-begin .btn:hover {
+  background-color: rgba(83, 185, 210, 0.7);
+}
+
+/* *************************** */
+/* **** Start Living Section * */
+/* *************************** */
+
+.start-Living-Section {
+  margin-top: 5rem;
+}
+
+.live-sec-header {
+  color: #ff5a60;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.live-img img {
+  width: 80%;
+}
+
+.shaadi-live-logo img {
+  width: 80%;
+  margin-bottom: 1.4rem;
+}
+
+.shaadi-live-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.live-ing {
+  display: flex;
+  align-items: center;
+  width: 100rem;
+  margin: 0 auto;
+  padding: 3rem 5rem 5rem 5rem;
+}
+
+#shaadi-live-head-1 p {
+  font-size: 2.2rem;
+  text-align: center;
+  color: #3f3f3f;
+}
+
+#shaadi-live-head-2 {
+  background: #ff5a60;
+  width: 156px;
+  margin: 40px 0 35px;
+  height: 1px;
+}
+
+.is-available {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #3f3f3f;
+  margin-bottom: 1.4rem;
+}
+
+/* shaadi-live-visit */
+
+.shaadi-live-visit {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.live-visit-1 img,
+.live-visit-2 img {
+  width: 70%;
+}
+.live-visit-2 img {
+  margin-right: 4rem;
+}
+
+/* ************************* */
+/* Find-your-Special-Someone */
+/* ************************* */
+
+.Find-your-Special-Someone {
+  background-color: #f1f1f2;
+}
+
+#special-someone {
+  padding-top: 5.6rem;
+  color: #ff5a60;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.special-one {
+  padding-top: 3.4rem;
+  padding-bottom: 6.4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: center;
+  align-self: center;
+  width: 110rem;
+  margin: 0 auto;
+}
+
+.interact .interact-logo img,
+.signup .signup-logo img,
+.connect .connect-logo img {
+  width: 50%;
+}
+
+.signup .signup-logo,
+.signup,
+.connect .connect-logo,
+.connect,
+.interact .interact-logo,
+.interact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-up,
+.conn-ect,
+.inter-act {
+  margin-top: 3.4rem;
+}
+
+.signup .sign-up a,
+.connect .conn-ect a,
+.interact .inter-act a {
+  font-size: 2.2rem;
+  color: #00bcd5;
+  text-decoration: none;
+}
+
+.signup .sign-up a:hover,
+.connect .conn-ect a:hover,
+.interact .inter-act a:hover {
+  text-decoration: underline;
+}
+
+.signup .signup-info,
+.connect .connect-info,
+.interact .interact-info {
+  color: #72727d;
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+}
+
+/* image Gallery */
+
+.image-header {
+  color: #ff5a60;
+  font-size: 3.2rem;
+  text-align: center;
+  margin: 13rem 0;
+}
+
+.gallery-wrap {
+  width: 110rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#prev-btn ion-icon,
+#next-btn ion-icon {
+  font-size: 3rem;
+  color: #72727d;
+  cursor: pointer;
+}
+
+.gallery-1-img .img-1,
+.gallery-1-img .img-2,
+.gallery-1-img .img-3,
+.gallery-2-img .img-4,
+.gallery-2-img .img-5,
+.gallery-2-img .img-6,
+.gallery-3-img .img-7,
+.gallery-3-img .img-8,
+.gallery-3-img .img-9,
+.gallery-4-img .img-10,
+.gallery-4-img .img-11,
+.gallery-4-img .img-12 {
+  /* width: 100%; */
+  /* border-radius: 1.5px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box; */
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 4.2rem;
+  /* margin-bottom: 10rem; */
+}
+
+.gallery-1-img,
+.gallery-2-img,
+.gallery-3-img,
+.gallery-4-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.8rem;
+  flex: none;
+}
+
+.gallery-1-img img,
+.gallery-2-img img,
+.gallery-3-img img,
+.gallery-4-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.gallery-1-img .shaadi-img-1,
+.gallery-1-img .shaadi-img-2,
+.gallery-1-img .shaadi-img-3,
+.gallery-2-img .shaadi-img-4,
+.gallery-2-img .shaadi-img-5,
+.gallery-2-img .shaadi-img-6,
+.gallery-3-img .shaadi-img-7,
+.gallery-3-img .shaadi-img-8,
+.gallery-3-img .shaadi-img-9,
+.gallery-4-img .shaadi-img-10,
+.gallery-4-img .shaadi-img-11,
+.gallery-4-img .shaadi-img-12 {
+  padding: 1.8rem 1.4rem 4.4rem 1.4rem;
+}
+
+.name {
+  font-size: 2.2rem;
+  margin-bottom: 1.4rem;
+  color: #72727d;
+}
+
+.description {
+  font-size: 1.4rem;
+  color: #72727d;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  line-height: 1.2;
+}
+
+.images {
+  display: -webkit-box;
+  width: 100rem;
+  overflow-x: scroll;
+}
+
+.images::-webkit-scrollbar {
+  display: none;
+}
+
+/* your-story */
+
+/* Popular-Matrimony-Sites */
+
+.Popular-Matrimony-Sites {
+  width: 100rem;
+  margin: 0 auto;
+}
+
+.header-Matrimony-Sites {
+  color: #ff5a60;
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.actual-sites {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.Matrimony-Sites {
+  margin-top: 5.4rem;
+}
+
+.mother-tongue,
+.religion-tongue,
+.community-tongue {
+  text-align: center;
+  padding: 1.4rem 3rem;
+}
+.mother-tongue .site-head,
+.religion-tongue .site-head,
+.community-tongue .site-head {
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+  color: #72727d;
+  letter-spacing: 1px;
+}
+
+.site-names {
+  border-top: 1px solid rgba(114, 114, 125, 0.3);
+  padding-top: 1.8rem;
+}
+
+.site-names a {
+  /* margin-top: 3.4rem; */
+  font-size: 1.4rem;
+  color: #72727d;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.5;
+  /* padding: 4rem; */
+}
+
+.divisible {
+  font-size: 1.8rem;
+  margin: 0 0.6rem;
+  color: #72727d;
+}
+
+.More-Matrimonials {
+  margin-top: 1.4rem;
+  margin-bottom: 3.4rem;
+}
+
+.More-Matrimonials a {
+  font-size: 1.6rem;
+  color: #00bcd5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.caret-forward {
+  font-size: 1.4rem;
+  color: #72727d;
+}
+
+.More-Matrimonials a:hover {
+  text-decoration: underline;
+}
+
+.other-sites {
+  grid-column: 2/-2;
+  text-align: center;
+  margin-bottom: 3.4rem;
+}
+
+.Most-Popular-Matrimony-Apps {
+  width: 100rem;
+  margin: 0 auto;
+}
+
+/* .More-Matrimonials-community {
+  text-align: center;
+} */
+
+/* .More-Matrimonials-community a {
+  font-size: 1.6rem;
+  color: #00bcd5;
+  text-decoration: none;
+  font-weight: 500;
+} */
+
+.Popular-community-apps {
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+}

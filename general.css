@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+.your-story {
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+  background-color: #ff5a60;
+  padding: 2.5rem 0;
+}
+
+.story-waiting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.4rem;
+}
+
+.story-info {
+  font-size: 2.2rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.your-story-btn {
+  padding: 1.4rem 4.6rem;
+  background-color: #ff5a60;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.your-story-btn:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+/* Matrimony App */
+
+.Matrimony-App {
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+  background-color: #eee;
+  padding: 2.5rem 0;
+}
+
+.matrimony-app-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.4rem;
+}
+
+.matrimony-story {
+  font-size: 2.2rem;
+  color: #ff5a60;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.get-started-matrimony {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.get-started-matrimony img {
+  width: 30%;
+}
