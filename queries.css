@@ -23,8 +23,8 @@
     justify-content: space-between;
   }
   .container {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
+    width: 100%;
+    overflow-x: hidden;
   }
   .bottom-footer {
     width: 80rem;
@@ -83,11 +83,14 @@
   .bottom-footer {
     width: 70rem;
   }
+  .content1 {
+    text-align: center;
+  }
 }
 
 /* at 800px */
 
-@media (max-width: 800px) {
+@media (max-width: 834px) {
   html {
     font-size: 9px;
   }
@@ -103,7 +106,10 @@
   .Most-Popular-Matrimony-Apps,
   .bottom-Matrimonials,
   .about-more {
-    width: 60rem;
+    width: 100%;
+  }
+  .bottom-inf0 {
+    padding-left: 1.8rem;
   }
 }
 
@@ -119,6 +125,7 @@
   .special-one {
     grid-template-columns: 1fr;
     gap: 2.4rem;
+    width: 100%;
   }
   .image-header {
     font-size: 2.4rem;
@@ -136,5 +143,73 @@
   .gallery-4-img .img-11,
   .gallery-4-img .img-12 {
     width: 53rem;
+  }
+}
+
+/* AT 450px */
+
+@media (max-width: 450px) {
+  html {
+    font-size: 7px;
+  }
+  .match-making-Services {
+    left: 2%;
+  }
+  .matrimony-app-down {
+    flex-direction: column;
+  }
+  .get-started-matrimony {
+    justify-content: center;
+  }
+
+  .bottom-Matrimonials {
+    width: 40rem;
+  }
+
+  .trusted-from {
+    flex-direction: column;
+  }
+
+  .story-waiting {
+    flex-direction: column;
+  }
+  .bottom-footer {
+    flex-direction: column;
+    width: 40rem;
+  }
+  .privacy {
+    margin-left: -6rem;
+  }
+  .about-more {
+    display: none;
+  }
+  .trust-head {
+    margin-left: -9rem;
+  }
+  .Popular-community-apps {
+    flex-direction: column;
+  }
+  .actual-sites {
+    grid-template-columns: 1fr;
+  }
+  .millions-of-trusted-peoples {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .match-making-Services {
+    left: 0%;
+  }
+  .special-one,
+  .gallery-wrap,
+  .Popular-Matrimony-Sites,
+  .Most-Popular-Matrimony-Apps,
+  .bottom-Matrimonials,
+  .about-more {
+    width: 40rem;
+  }
+  .actual-sites {
+    grid-template-columns: 1fr;
   }
 }
