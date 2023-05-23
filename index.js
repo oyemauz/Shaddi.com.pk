@@ -10,7 +10,11 @@ images.addEventListener("wheel", (evt) => {
 
 next_btn.addEventListener("click", () => {
   images.style.scrollBehavior = "smooth";
-  images.scrollLeft += 1000;
+  if ((width = 1000)) {
+    images.scrollLeft += 1000;
+  } else if ((width = 424)) {
+    images.scrollLeft += 424;
+  }
 });
 
 prev_btn.addEventListener("click", () => {

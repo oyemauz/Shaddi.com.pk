@@ -77,3 +77,7 @@ html {
 .get-started-matrimony img {
   width: 30%;
 }
+
+.live-img {
+  display: flex;
+}

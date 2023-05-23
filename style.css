@@ -299,6 +299,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .sign-up,
@@ -458,6 +459,11 @@
   margin-top: 5.4rem;
 }
 
+.other-sites .site-head {
+  font-size: 1.6rem;
+  color: #72727d;
+}
+
 .mother-tongue,
 .religion-tongue,
 .community-tongue {
@@ -486,6 +492,10 @@
   text-decoration: none;
   line-height: 1.5;
   /* padding: 4rem; */
+}
+
+.site-names a:hover {
+  text-decoration: underline;
 }
 
 .divisible {
@@ -541,4 +551,211 @@
   display: flex;
   /* align-items: center; */
   text-align: center;
+}
+
+/* bottom-Matrimonials */
+
+.bottom-Matrimonials {
+  width: 100rem;
+  margin: 0 auto;
+  margin-bottom: 5.4rem;
+}
+
+.bottom-log {
+  text-align: center;
+}
+.bottom-info {
+  font-size: 1.4rem;
+  color: #72727d;
+  margin-top: 5.4rem;
+  margin-bottom: 3.4rem;
+  line-height: 1.6;
+}
+
+.bottom-info .p2 {
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.bottom-info .p4 {
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.bottom-info .p5 {
+  margin-top: 2.4rem;
+  font-style: italic;
+}
+.bottom-Matrimonials-info {
+  display: flex;
+  align-items: center;
+}
+.bottom-Matrimonials-info a {
+  font-size: 1.4rem;
+  color: #00bcd5;
+  text-decoration: none;
+}
+
+.bottom-Matrimonials-info ion-icon {
+  color: rgba(114, 114, 125, 0.5);
+}
+
+.total-countries {
+  text-align: center;
+}
+
+.total-countries .country a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #00bcd5;
+}
+
+.total-countries .country a:hover {
+  text-decoration: underline;
+}
+
+.bottom-Matrimonials-country a {
+  font-size: 1.4rem;
+  color: #00bcd5;
+  text-decoration: none;
+}
+
+.bottom-Matrimonials-country a :hover {
+  text-decoration: underline;
+}
+
+/* millions-of-trusted-peoples */
+
+.millions-of-trusted-peoples {
+  width: 70rem;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+.trust-head {
+  text-align: center;
+  margin-bottom: 0.9rem;
+}
+.trust-head span {
+  font-size: 1.8rem;
+  background-color: #00bcd5;
+  color: #fff;
+  padding: 0.9rem 1.5rem 0.9rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.trusted-from {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgba(114, 114, 125, 0.3);
+  border-top: 1px solid rgba(114, 114, 125, 0.3);
+  padding-top: 3.4rem;
+  padding-bottom: 3.4rem;
+}
+
+.perfect-matches img,
+.varified-profiles img,
+.privacy img {
+  width: 20%;
+}
+
+.trust-people-logo {
+  font-size: 1.4rem;
+  color: #72727d;
+}
+
+.perfect-matches,
+.varified-profiles,
+.privacy {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+/* about-more */
+
+.about-more {
+  width: 100rem;
+  margin: 0 auto;
+}
+
+.more-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.about-header {
+  font-size: 1.6rem;
+  color: #72727d;
+  margin-bottom: 1.4rem;
+  text-align: center;
+}
+
+.need-help,
+.company,
+.privacy-and-you,
+.more {
+  width: 22%;
+}
+
+.need-help a,
+.company a,
+.privacy-and-you a,
+.more a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #72727d;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.need-help a:hover,
+.company a:hover,
+.privacy-and-you a:hover,
+.more a:hover {
+  text-decoration: underline;
+}
+
+.more-info-anchor {
+  border-top: 1px solid rgba(114, 114, 125, 0.3);
+  padding-top: 1.8rem;
+}
+
+/* footer */
+
+.footer {
+  background-color: #eee;
+  padding: 2.4rem 0;
+  margin-top: 6rem;
+}
+
+.bottom-footer {
+  width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content1,
+.content2 {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #72727d;
+}
+
+.footer-Matrimonials-info a {
+  text-decoration: none;
+  color: #00bcd5;
+}
+
+.footer-Matrimonials-info a:hover {
+  text-decoration: underline;
+}
+
+.footer-Matrimonials-info ion-icon {
+  color: rgba(114, 114, 125, 0.3);
 }
