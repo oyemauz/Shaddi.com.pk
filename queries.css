@@ -54,13 +54,14 @@
   }
   .live-img,
   .live-shaadi {
-    width: 50%;
+    width: 70%;
     align-items: center;
     justify-content: center;
+    display: flex;
   }
   .live-img img,
   .shaadi-live-logo img {
-    width: 70%;
+    /* width: 70%; */
   }
   .special-one {
     width: 70rem;
