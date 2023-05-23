@@ -59,10 +59,10 @@
     justify-content: center;
     display: flex;
   }
-  .live-img img,
+  /* .live-img img,
   .shaadi-live-logo img {
     /* width: 70%; */
-  }
+  /* }  */
   .special-one {
     width: 70rem;
   }
