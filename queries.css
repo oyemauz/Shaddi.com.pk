@@ -184,9 +184,9 @@
   .about-more {
     display: none;
   }
-  .trust-head {
+  /* .trust-head {
     margin-left: -9rem;
-  }
+  } */
   .Popular-community-apps {
     flex-direction: column;
   }
