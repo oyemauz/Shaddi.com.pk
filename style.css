@@ -466,7 +466,8 @@
 
 .mother-tongue,
 .religion-tongue,
-.community-tongue {
+.community-tongue,
+.other-sites {
   text-align: center;
   padding: 1.4rem 3rem;
 }
