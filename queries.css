@@ -29,6 +29,9 @@
   .bottom-footer {
     width: 80rem;
   }
+  .login-form {
+    width: 25%;
+  }
 }
 
 /* At 950px */
@@ -90,6 +93,9 @@
   .help {
     display: none;
   }
+  .login-form {
+    width: 30%;
+  }
 }
 
 /* at 800px */
@@ -114,6 +120,10 @@
   }
   .bottom-inf0 {
     padding-left: 1.8rem;
+  }
+  .login-form {
+    width: 33%;
+    left: 37%;
   }
 }
 
@@ -147,6 +157,10 @@
   .gallery-4-img .img-11,
   .gallery-4-img .img-12 {
     width: 53rem;
+  }
+  .login-form {
+    width: 37%;
+    left: 35%;
   }
 }
 
@@ -199,6 +213,10 @@
   .millions-of-trusted-peoples {
     width: 50rem;
   }
+  .login-form {
+    width: 40%;
+    left: 30%;
+  }
 }
 
 @media (max-width: 300px) {
@@ -215,5 +233,9 @@
   }
   .actual-sites {
     grid-template-columns: 1fr;
+  }
+  .login-form {
+    width: 55%;
+    left: 25%;
   }
 }

@@ -46,14 +46,10 @@ prev_btn.addEventListener("click", () => {
 const helpPage = document.querySelector(".c-content");
 const displayhelp = document.querySelector(".click-help");
 const h_p = window.getComputedStyle(helpPage);
-// const h_f = helpPage.display;
-// console.log(h_p.display);
 
-// console.log(displayhelp);
 displayhelp.addEventListener("click", () => {
   if (h_p.display === "none") helpPage.style.display = "block";
   else helpPage.style.display = "none";
-  console.log(h_p.display);
 });
 
 // Signup Information.
@@ -62,15 +58,18 @@ const containr = document.querySelector(".Container");
 const lg_section = document.querySelector(".Login-section");
 const close_outline = document.querySelector(".close-outline");
 const login = document.querySelector(".login");
-const const_lg_section = window.getComputedStyle(lg_section);
-const f_lg_section = const_lg_section.display;
 
-// console.log(f_lg_section);
+const const_lg_section = window.getComputedStyle(lg_section);
 
 login.addEventListener("click", () => {
-  if (const_lg_section === "none") {
-  }
+  if (const_lg_section.display === "none") {
+    lg_section.style.display = "block";
+    containr.style.backgroundColor = "rgba(114, 114, 125, 0.2)";
+  } else close_outline.addEventListener("click", outlinedisp);
 });
-// function outlinedisp() {
-//   lg_section.style.display = "none";
-// }
+
+function outlinedisp() {
+  lg_section.style.display = "none";
+  containr.style.backgroundColor = "rgba(114, 114, 125, 0)";
+  console.log(lg_section.style.display);
+}
