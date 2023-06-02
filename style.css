@@ -19,11 +19,11 @@
   object-fit: cover;
 }
 
-.head {
+/* .head {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
+} */
 
 /* head Section for Logo and Login*/
 
@@ -54,10 +54,14 @@
 
 .login_help {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .help {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .help #help-icon {
@@ -71,6 +75,7 @@
 .login a:hover,
 .help a:hover {
   border-bottom: 1px solid #fff;
+  color: #fff;
 }
 
 /* match-making-Services */
@@ -138,7 +143,7 @@
 /* age to */
 
 .info .age-to {
-  margin-top: 1.6rem;
+  margin-top: 2.4rem;
   font-size: 1.4rem;
 }
 

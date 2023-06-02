@@ -8,42 +8,72 @@
     <link rel="stylesheet" href="./general.css" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./queries.css">
-  </head>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
   <body>
     <!-- this is container div -->
-    <div class="container">
+    <div class="Container">
       <header class="header_section">
         <!-- head section in which Logo and Login Page Exist -->
         <div class="head">
           <div class="nav_sec">
             <div class="logo"><img src="./images/logo.png" alt="" /></div>
             <div class="login_help">
-              <span class="login"
-                ><a href="#">Login</a
-                ><ion-icon
+              <span class="login"><a href="#">Login</a>
+                <ion-icon
+                class="svg-icon"
+                name="chevron-down-outline"
+                ></ion-icon>
+              </span>
+
+                <div class="help">
+                  <span class="icon_logo">
+                    <ion-icon id="help-icon" name="person-circle-outline"></ion-icon></span>  
+                <!-- start -->
+                <span class="click-help">
+                  <a href="#">Help</a>
+                </span>
+                <span class="svg-down-arrow">
+                  <ion-icon
                   class="svg-icon"
                   name="chevron-down-outline"
-                ></ion-icon
-              ></span>
-              <div class="help">
-                <div class="icon_logo">
-                    <ion-icon id="help-icon" name="person-circle-outline"></ion-icon>
-                </div>
-                <div class="click-help">
-                    <a href="#">Help</a>
-                    </div>
-                    <span class="svg-down-arrow">
-
-                        <ion-icon
-                        class="svg-icon"
-                        name="chevron-down-outline"
-                        ></ion-icon>
-                    </span>
-                </div>
+                  ></ion-icon>
                 </span>
             </div>
           </div>
         </div>
+        <!-- START -->
+       
+
+        <!-- End -->
+     <div class="c-content">
+      <div class="click-content">
+        <div class="cont-1">
+        <div class="tertiary-heading"> India : +91-8095031111</div>
+        <span class="off-click-here"> For regional offices <a href="#">click here</a></span>
+        <div class="para"> We are Back! Our phone services </div> 
+        <div class="para"> resumed and you can now call us</div>
+        <div class="para"> between 10am - 7pm (IST). You may</div>
+        <div class="para"> experience marginally longer wait</div> 
+        <div class="para"> in this period, but that will be </div>
+        <div class="para"> soon. For Instant Support, we </div>
+        <div class="para">that you connect with us on Chat & </div>
+        <div class="para"> be there to assist you. #StrongerTogether</div>
+        <span class="off-click-here">To get instant help <a href="#">click here</a></span>
+      </div>
+        <div class="cont-2">
+          <a href="#">Help Desk</a>
+          <a href="#">Be safe online</a>
+          <a href="#">Shaddi Live</a>
+        </div>
+      </div>
+     </div>
+      </div>
+      <!-- section 1 Part 2 -->
         <div class="match-making-Services">
           <div class="header">Trusted Matrimony & Matchmaking Service</div>
           <div class="services">
@@ -60,121 +90,11 @@
               <div class="age">
                 <div class="age-from info-property">
                   <label for="">Aged</label>
-                  <select name="" class="age-select">
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20" selected>20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                    <option value="24">24</option>
-                    <option value="25">25</option>
-                    <option value="26">26</option>
-                    <option value="27">27</option>
-                    <option value="28">28</option>
-                    <option value="29">29</option>
-                    <option value="30">30</option>
-                    <option value="31">31</option>
-                    <option value="32">32</option>
-                    <option value="33">33</option>
-                    <option value="34">34</option>
-                    <option value="35">35</option>
-                    <option value="36">36</option>
-                    <option value="37">37</option>
-                    <option value="38">38</option>
-                    <option value="39">39</option>
-                    <option value="40">40</option>
-                    <option value="41">41</option>
-                    <option value="42">42</option>
-                    <option value="43">43</option>
-                    <option value="44">44</option>
-                    <option value="45">45</option>
-                    <option value="46">46</option>
-                    <option value="47">47</option>
-                    <option value="48">48</option>
-                    <option value="49">49</option>
-                    <option value="50">50</option>
-                    <option value="51">51</option>
-                    <option value="52">52</option>
-                    <option value="53">53</option>
-                    <option value="54">54</option>
-                    <option value="55">55</option>
-                    <option value="56">56</option>
-                    <option value="57">57</option>
-                    <option value="58">58</option>
-                    <option value="59">59</option>
-                    <option value="60">60</option>
-                    <option value="61">61</option>
-                    <option value="62">62</option>
-                    <option value="63">63</option>
-                    <option value="64">64</option>
-                    <option value="65">65</option>
-                    <option value="66">66</option>
-                    <option value="67">67</option>
-                    <option value="68">68</option>
-                    <option value="69">69</option>
-                    <option value="70">70</option>
-                    <option value="71">71</option>
-                  </select>
+                  <select name="" class="age-select-info age-select"></select>
                 </div>
                 <span id="to">to</span>
                 <div class="age-to">
-                  <select name="" class="age-select">
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                    <option value="24">24</option>
-                    <option value="25" selected>25</option>
-                    <option value="26">26</option>
-                    <option value="27">27</option>
-                    <option value="28">28</option>
-                    <option value="29">29</option>
-                    <option value="30">30</option>
-                    <option value="31">31</option>
-                    <option value="32">32</option>
-                    <option value="33">33</option>
-                    <option value="34">34</option>
-                    <option value="35">35</option>
-                    <option value="36">36</option>
-                    <option value="37">37</option>
-                    <option value="38">38</option>
-                    <option value="39">39</option>
-                    <option value="40">40</option>
-                    <option value="41">41</option>
-                    <option value="42">42</option>
-                    <option value="43">43</option>
-                    <option value="44">44</option>
-                    <option value="45">45</option>
-                    <option value="46">46</option>
-                    <option value="47">47</option>
-                    <option value="48">48</option>
-                    <option value="49">49</option>
-                    <option value="50">50</option>
-                    <option value="51">51</option>
-                    <option value="52">52</option>
-                    <option value="53">53</option>
-                    <option value="54">54</option>
-                    <option value="55">55</option>
-                    <option value="56">56</option>
-                    <option value="57">57</option>
-                    <option value="58">58</option>
-                    <option value="59">59</option>
-                    <option value="60">60</option>
-                    <option value="61">61</option>
-                    <option value="62">62</option>
-                    <option value="63">63</option>
-                    <option value="64">64</option>
-                    <option value="65">65</option>
-                    <option value="66">66</option>
-                    <option value="67">67</option>
-                    <option value="68">68</option>
-                    <option value="69">69</option>
-                    <option value="70">70</option>
-                    <option value="71">71</option>
-                  </select>
+                  <select name="" class="age-select-info age-select"></select>
                 </div>
               </div>
 
@@ -238,10 +158,10 @@
               <div class="is-available">Available on the Shaadi.com App</div>
               <div class="shaadi-live-visit">
                 <div class="live-visit-1">
-                  <img src="./images/googleplay.png" alt="" />
+                  <img src="./images/Matrimony-App-Shaadi.com-Appstore.png" alt="" />
                 </div>
                 <div class="live-visit-2">
-                  <img src="./images/appstore.png" alt="" />
+                  <img src="./images/Matrimony-App-Shaadi.com-Playstore.png" style="width:60%; margin-right:0;" alt="" />
                 </div>
               </div>
             </div>
@@ -253,7 +173,7 @@
 <section class="Find-your-Special-Someone">
     <div id="special-someone">Find your Special Someone </div>
     <div class="special-one">
-        <div class="signup">
+        <div class="signup"style="margin:0;">
             <div class="signup-logo"><img src="./images/home-icon1-removebg-preview.png" alt=""></div>
             <div class="sign-up"><a href="#">Signup</a></div>
             <div class="signup-info">Register for free & put up your Matrimony Profile
@@ -730,7 +650,7 @@
  
 
 
-<footer class="footer">
+  <footer class="footer">
   <div class="bottom-footer">
     <div class="content1">© 1996-2023 Shaadi.com, The World's Leading Matchmaking Service™</div>
     <div class="content2">Passionately created by 
@@ -739,12 +659,70 @@
       <ion-icon name="caret-forward-outline"></ion-icon></span>
     </div>
   </div>
-</footer>
+  <!-- <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+  Tooltip on top
+  </button> -->
+  </footer>
+  </div>
 
+        <!-- ************** -->
+        <!-- Signup Section -->
+        <!-- ************** -->
+
+  <section class="Login-section">
+    <div class="login-form">
+      <div class="close-outline">
+        <a href="#"><ion-icon name="close-outline"></ion-icon></a>
+      </div>
+      <div class="login-logo d-flex justify-content-center">
+        <img src="./images/home-page-layer-logo.png" alt="">
+      </div>
+      <h6 class="login-head">Welcome Back Please Login</h6>
+      <div class="form">
+        <div class="text-box d-flex flex-column">
+          <label for="#">Mobile No</label>
+          <input type="number" >
+        </div>
+        <div class="text-box d-flex flex-column">
+          <label for="#">Password</label>
+          <input type="password" >
+        </div>
+        <div class="forgot-password">
+          <div class="stay-login">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">Stay Logged In ?</label>
+            </div>
+          </div>
+          <div class="forgot"><a href="#">Forgot password?</a></div>
+        </div>
+      </div>
+      <div class="main-btn">
+        <div class="m-btn">
+          <button class="btn-1" >Login</button>
+        </div>
+        <div class="or " style="font-size: 1.2rem;">OR</div>
+        <div class="m-btn">
+          <button class="btn-1">Login with OTP</button>
+        </div>
+      </div>
+      <div class="signup">
+        <span class="new-shaddi">
+          New to Shaadi? <a href="#">Signup Free</a>
+        </span>
+      </div>
     </div>
+
+  </section>
+
+  <!-- End Here -->
+
   </body>
   <script src="./index.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
 </html>
