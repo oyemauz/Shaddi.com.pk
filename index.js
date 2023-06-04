@@ -73,3 +73,28 @@ function outlinedisp() {
   containr.style.backgroundColor = "rgba(114, 114, 125, 0)";
   console.log(lg_section.style.display);
 }
+
+// *********************** //
+// ****** Succes Story *** //
+// *********************** //
+
+// let common_disp = window.getComputedStyle(helpPage);
+
+let nav = document.querySelector(".naav");
+
+// let link1 = document.querySelector(".naav-l-1");
+let link2 = document.querySelector("#naav-l-2");
+let link3 = document.querySelector("#naav-l-3");
+let link4 = document.querySelector("#naav-l-4");
+let link5 = document.querySelector("#naav-l-5");
+
+console.log(link2);
+
+let inside_research = document.querySelector(".inside-research");
+let matches_research = document.querySelector(".matches-research");
+let inbox_research = document.querySelector(".inbox-research");
+let more_research = document.querySelector(".More-research");
+
+link2.addEventListener("click", () => {
+  inside_research.style.display = "block";
+});

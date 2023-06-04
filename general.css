@@ -77,9 +77,15 @@ html {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  text-align: center;
 }
 .get-started-matrimony img {
-  width: 30%;
+  width: 50%;
+}
+
+.matrimony-app-image {
+  width: 100%;
+  text-align: end;
 }
 
 .live-ing {
@@ -178,7 +184,7 @@ html {
 
 .login-form {
   border-radius: 5px;
-  width: 22%;
+  width: 37rem;
   background-color: #fff;
   color: #72727d;
   position: fixed;

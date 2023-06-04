@@ -22,7 +22,7 @@
   .nav_sec {
     justify-content: space-between;
   }
-  .container {
+  .Container {
     width: 100%;
     overflow-x: hidden;
   }
@@ -30,7 +30,7 @@
     width: 80rem;
   }
   .login-form {
-    width: 25%;
+    left: 37%;
   }
 }
 
@@ -94,7 +94,7 @@
     display: none;
   }
   .login-form {
-    width: 30%;
+    /* width: 30%; */
   }
 }
 
@@ -122,8 +122,8 @@
     padding-left: 1.8rem;
   }
   .login-form {
-    width: 33%;
-    left: 37%;
+    /* width: 33%; */
+    left: 30%;
   }
 }
 
@@ -159,8 +159,8 @@
     width: 53rem;
   }
   .login-form {
-    width: 37%;
-    left: 35%;
+    /* width: 37%; */
+    left: 27%;
   }
 }
 
@@ -214,12 +214,12 @@
     width: 50rem;
   }
   .login-form {
-    width: 50%;
-    left: 30%;
+    /* width: 50%; */
+    left: 20%;
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
   .match-making-Services {
     left: 0%;
   }
@@ -235,7 +235,6 @@
     grid-template-columns: 1fr;
   }
   .login-form {
-    width: 55%;
-    left: 25%;
+    left: 20%;
   }
 }
