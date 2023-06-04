@@ -1,3 +1,6 @@
+html {
+  font-size: 10px;
+}
 .top-band {
   width: 100rem;
   margin: 0 auto;
@@ -65,26 +68,27 @@
 
 .inside-research {
   position: absolute;
-  top: 20%;
+  top: 18%;
   left: 25.5%;
   display: none;
 }
 .matches-research {
   position: absolute;
-  top: 20%;
+  top: 18%;
   left: 33.5%;
   display: none;
 }
 .inbox-research {
   position: absolute;
-  top: 20%;
-  left: 43%;
+  top: 18%;
+  left: 35%;
   display: none;
+  width: 15rem;
 }
 .More-research {
   position: absolute;
-  top: 20%;
-  left: 50.5%;
+  top: 18%;
+  left: 43.5%;
   display: none;
 }
 
@@ -92,12 +96,17 @@
   font-size: 1.4rem;
   text-decoration: none;
   color: #72727d;
+  line-height: 2;
+  padding: 1.4rem;
+  text-align: center;
+}
+
+.common-research a:hover {
+  color: #00bcd5;
 }
 
 .inside-nav a:hover {
-  background-color: #fff;
-  color: #72727d;
-  /* padding: 1rem 0; */
+  color: #000;
 }
 
 /* Main Container Section */
@@ -317,4 +326,73 @@
 
 .prople-group a:hover {
   text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media (max-width: 1000px) {
+  .top-band,
+  .inside-nav,
+  .container-header {
+    width: 80rem;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 9px;
+  }
+  .top-band,
+  .inside-nav,
+  .container-header {
+    width: 60rem;
+  }
+  .success-Stories {
+    grid-template-columns: 1fr;
+  }
+  .success-own-pic {
+    display: flex;
+    gap: 3.4rem;
+    margin-top: 3.4rem;
+  }
+  .success-bottom-sec {
+    flex-direction: column;
+  }
+  .member-login {
+    display: none;
+  }
+}
+
+@media (max-width: 690px) {
+  html {
+    font-size: 8px;
+  }
+  .success-own-pic {
+    display: block;
+  }
+  .top-band,
+  .inside-nav,
+  .container-header {
+    width: 50rem;
+  }
+  .navbar-story {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 7px;
+  }
+  .top-band,
+  .inside-nav,
+  .container-header {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 6px;
+  }
 }
