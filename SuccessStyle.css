@@ -68,26 +68,26 @@ html {
 
 .inside-research {
   position: absolute;
-  top: 18%;
+  top: 13%;
   left: 25.5%;
   display: none;
 }
 .matches-research {
   position: absolute;
-  top: 18%;
+  top: 13%;
   left: 33.5%;
   display: none;
 }
 .inbox-research {
   position: absolute;
-  top: 18%;
+  top: 13%;
   left: 35%;
   display: none;
   width: 15rem;
 }
 .More-research {
   position: absolute;
-  top: 18%;
+  top: 13%;
   left: 43.5%;
   display: none;
 }
@@ -135,10 +135,9 @@ html {
   font-weight: 600;
 }
 
-.naav_link:first-child {
-  border-bottom: 2px solid #00bcd5;
-  color: #00bcd5;
-}
+/* .naav_link:first-child {
+ 
+} */
 
 .naav_link:hover {
   color: #72727d;
@@ -328,6 +327,21 @@ html {
   text-decoration: underline;
 }
 
+/* ****************************  */
+/* ****** Videos Section ****** */
+/* **************************** */
+
+.video-section {
+  background-color: #fff;
+}
+
+.videos iframe {
+  width: 40rem;
+  height: 22rem;
+  margin-right: 1rem;
+  padding: 4rem;
+}
+
 /* Media Queries */
 
 @media (max-width: 1000px) {
@@ -335,6 +349,16 @@ html {
   .inside-nav,
   .container-header {
     width: 80rem;
+  }
+  .videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+  }
+  .videos iframe {
+    margin: 0;
+    padding: 1.4rem 0;
   }
 }
 
