@@ -346,9 +346,35 @@ html {
 /* ** Your-success-story* */
 /* ********************* */
 
+.follow-me a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.follow-me a:hover {
+  color: #00bcd4;
+  text-decoration: underline;
+}
+
+.cofounder-info span {
+  font-size: 1.4rem;
+  color: #7d7d7d;
+}
+
+.cofounder-logo img {
+  width: 8%;
+  border-radius: 100%;
+}
+
 .Your-success-story {
   background-color: #fff;
   padding: 3.4rem;
+}
+
+.partner-header {
+  /* font-size: 3.4rem; */
+  color: #7d7d7d;
 }
 
 .team-info {
@@ -356,14 +382,12 @@ html {
   color: #7d7d7d;
 }
 
-body {
-  color: #000;
-  overflow-x: hidden;
-  height: 100%;
-  background-image: url("https://i.imgur.com/GMmCQHC.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+.partner-detail input::placeholder {
+  color: #7d7d7d;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
 }
+
 .card {
   padding: 30px 40px;
   margin-top: 60px;
@@ -407,6 +431,16 @@ textarea:focus {
 .btn-block:hover {
   color: #fff !important;
 }
+
+.j {
+  margin-top: 0.8rem;
+}
+
+.temp-btn {
+  background-color: #00bcd4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 button:focus {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
