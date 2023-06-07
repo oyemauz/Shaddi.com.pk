@@ -76,8 +76,9 @@ body {
 }
 
 /* Hover */
+.login a:hover,
 .help a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: #fff;
 }
 
